@@ -48,16 +48,16 @@
                 <br>
                 <li><a><i class="fa fa-table"></i> Buffet Wastage<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="profile.html">Breakfast</a></li>
-                        <li><a href="Profile.html">Lunch</a></li>
-                        <li><a href="contacts.html">Dinner</a></li>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Dinner</a></li>
                     </ul>
                 </li>
                 <li><a><i class="fa fa-table"></i> A-La Carte Wastage<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="profile.html">Breakfast</a></li>
-                        <li><a href="Profile.html">Lunch</a></li>
-                        <li><a href="contacts.html">Dinner</a></li>
+                        <li><a href="#">Breakfast</a></li>
+                        <li><a href="#">Lunch</a></li>
+                        <li><a href="#">Dinner</a></li>
                     </ul>
                 </li>
                 <br>
@@ -66,16 +66,6 @@
                 <li><a><i class="fa fa-envelope"></i> Messages <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                         <li><a href="inbox.php">Inbox</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="menu_section">
-            <h3>Performance</h3>
-            <ul class="nav side-menu">
-                <li><a><i class="fa fa-desktop"></i>Reports <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                        <li><a href="inbox.php">Overall Reports</a></li>
                     </ul>
                 </li>
             </ul>
