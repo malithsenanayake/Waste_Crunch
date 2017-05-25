@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Green Pay | Main Dashboard </title>
+    <title>Waste Crunch</title>
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -34,6 +34,9 @@
         }
         setInterval('increment()', 3400);
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css"/>
     <script>
         document.getElementById("amount").innerHTML = localStorage.getItem("amount");
     </script>
@@ -193,7 +196,8 @@
                             </li>
                             <li><a href="set_values.html"><i class="fa fa-edit"></i> Set Values</a>
                             </li>
-                            <li><a href="request_V2G_Electricity.html"><i class="fa fa-desktop"></i> Request V2G Electricity</a>
+                            <li><a href="request_V2G_Electricity.html"><i class="fa fa-desktop"></i> Request V2G
+                                Electricity</a>
                             </li>
                             <li><a><i class="fa fa-table"></i> Manage Accounts <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
@@ -236,7 +240,8 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li class="">
-                            <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
+                               aria-expanded="false">
                                 <img src="images/img.jpg" alt="">Admin
                                 <span class=" fa fa-angle-down"></span>
                             </a>
@@ -261,11 +266,11 @@
                                 <li>
                                     <a>
                                         <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
-                        <span>
+                                        <span>
                           <span>Keels Super 01 </span>
                           <span class="time"> 1 min ago</span>
                         </span>
-                        <span class="message">
+                                        <span class="message">
                             We are experiencing some network issues. Our V2G Units show as offline. please verify from your end and do let us know ASAP
                         </span>
                                     </a>
@@ -273,11 +278,11 @@
                                 <li>
                                     <a>
                                         <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
-                        <span>
+                                        <span>
                           <span>Keels Super 02 </span>
                           <span class="time">3 mins ago</span>
                         </span>
-                        <span class="message">
+                                        <span class="message">
                           Test messege
                         </span>
                                     </a>
@@ -285,11 +290,11 @@
                                 <li>
                                     <a>
                                         <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
-                        <span>
+                                        <span>
                           <span>Arpico Super 01</span>
                           <span class="time">5 mins ago</span>
                         </span>
-                        <span class="message">
+                                        <span class="message">
                           Please verify the connection. Thank you.
                         </span>
                                     </a>
@@ -297,11 +302,11 @@
                                 <li>
                                     <a>
                                         <span class="image"><img src="images/img.jpg" alt="Profile Image"/></span>
-                        <span>
+                                        <span>
                           <span>CMC Colombo 7</span>
                           <span class="time">2 days ago </span>
                         </span>
-                        <span class="message">
+                                        <span class="message">
                           Please check if carpark lot #2 V2Gs are online. Thank you
                         </span>
                                     </a>
@@ -323,55 +328,45 @@
         <!-- /top navigation -->
 
         <!-- page content -->
-        <div class="right_col" role="main">
+        <div class="right_col">
             <!-- top tiles -->
             <div class="row tile_count">
-                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                    <span class="count_top"><i class="fa fa-users"></i> V2G Subscribers Online </span>
-                    <div class="count">
-                        <Small>1/10</Small>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                    <span class="count_top"><i class="fa fa-automobile"></i> EV Users Online </span>
-                    <div class="count">
-                        <Small>1/21</Small>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                    <span class="count_top"><i class="fa fa-area-chart"></i> Total Electricity Provided</span>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="count green"><h1><small>Kw:</small></h1></div>
+                <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12" style=" color: white">
+                    <div class="tile-stats" style=" background-color: #3498db;  color: white">
+                        <div class="icon"><i class="fa fa-check-square-o"></i>
+                            <br><br><br><h3>12%</h3>
                         </div>
-                        <div class="col-md-4">
-                            <div class="count green"><h1 id="number">67</h1></div>
-                        </div>
+                        <div class="count">Breakfast</div>
+                        <h3>Submitted</h3>
+                        <p>Lorem ipsum psdea itgum rixt.</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                    <span class="count_top"><i class="fa fa-money"></i> Total Payments </span>
-                    <div class="count">
-                        <div class="col-md-4">
-                            <div class="count green"><h1 id="number">Rs: 6,842</h1></div>
+                <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="tile-stats" style=" background-color: #6f6bbf; color: white">
+                        <div class="icon"><i class="fa fa-check-square-o"></i>
+                            <br><br><br><h3>2%</h3>
                         </div>
+                        <div class="count">Lunch</div>
+                        <h3>Submitted</h3>
+                        <p>Lorem ipsum psdea itgum rixt.</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                    <span class="count_top"><i class="fa fa-money"></i> Daily Limit </span>
-                    <div class="count">
-                        <div class="col-md-4">
-                            <div class="count grey"><h1 id="number">Rs: 9,000</h1></div>
-                        </div>
+                <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="tile-stats" style=" background-color: #00a85b;  color: white">
+                        <div class="icon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                            <br><br><br><h3>-</h3>
+                            </div>
+                        <div class="count">Dinner</div>
+                        <h3>Pending</h3>
+                        <p>Lorem ipsum psdea itgum rixt.</p>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                    <span class="count_top"><i class="fa fa-clock-o"></i> Local Date and Time </span>
-                    <div class="count">
-                        <Small>
-                            <iframe src="http://free.timeanddate.com/clock/i5pxfpsk/n1925/fs24/fc73879c/tcf7f7f7/pcf7f7f7/ftb/tt0/tw0/tm1/ts1/tb4"
-                                    frameborder="0" width="149" height="58"></iframe>
-                        </Small>
+                <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="tile-stats" style=" background-color: #de4e3c;  color: white">
+                        <div class="icon"></div>
+                        <div class="count">Wastage</div>
+                        <h3>Details</h3>
+                        <p>Lorem ipsum psdea itgum rixt.</p>
                     </div>
                 </div>
             </div>
@@ -381,51 +376,17 @@
                 <div class="col-md-12 col-sm-12g col-xs-12">
                     <div class="dashboard_graph">
 
-                        <div class="row x_title">
-                            <div class="col-md-6">
-                                <h3>
-                                    <small>Daily V2G Performance</Small>
-                                </h3>
-                            </div>
-                            <div class="col-md-6">
-                                <div id="reportrange" class="pull-right"
-                                     style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
-                                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
-                                    <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-8 col-xs-12">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
                                     <h2>Daily V2G Performance - Overview </h2>
                                     <div class="clearfix"></div>
                                 </div>
-                                <iframe width="503.5" height="357.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/187QkLmSTSFqTxgW4atqggBkCcOAMPMLzyhqgqTXkMDg/pubchart?oid=680890861&amp;format=interactive"></iframe>
+                                <iframe width="503.5" height="357.5" seamless frameborder="0" scrolling="no"
+                                        src="https://docs.google.com/spreadsheets/d/187QkLmSTSFqTxgW4atqggBkCcOAMPMLzyhqgqTXkMDg/pubchart?oid=680890861&amp;format=interactive"></iframe>
                             </div>
 
                         </div>
-                        <div class="col-md-6 col-sm-8 col-xs-12">
-                            <div class="x_panel">
-                                <div class="x_title">
-                                    <h2>Daily V2G Performance - LIVE</h2>
-
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12 bg-white">
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <div id="chartContainer" style="height: 360px; width: 100%;">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="x_content">
-
-
-                            </div>
-                        </div>
-
 
                         <div class="clearfix"></div>
                     </div>
@@ -440,93 +401,93 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="x_panel tile fixed_height_320">
                         <div class="x_title">
-                            <h2>V2G Performance sector-wise</h2>
+                            <h2>Nationality Details</h2>
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
                             <div class="widget_summary">
                                 <div class="w_left w_25">
-                                    <span>Western</span>
+                                    <span>Locals</span>
                                 </div>
                                 <div class="w_center w_55">
                                     <div class="progress">
                                         <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 66%;">
-                                            <span class="sr-only">60% Complete</span>
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">72%</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="w_right w_20">
-                                    <span>123k</span>
+                                    <span>72%</span>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
 
                             <div class="widget_summary">
                                 <div class="w_left w_25">
-                                    <span>Southern</span>
+                                    <span>Indians</span>
                                 </div>
                                 <div class="w_center w_55">
                                     <div class="progress">
                                         <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
-                                            <span class="sr-only">60% Complete</span>
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 18%;">
+                                            <span class="sr-only">18%</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="w_right w_20">
-                                    <span>53k</span>
+                                    <span>18%</span>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="widget_summary">
                                 <div class="w_left w_25">
-                                    <span>Central</span>
+                                    <span>Chinese</span>
                                 </div>
                                 <div class="w_center w_55">
                                     <div class="progress">
                                         <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
-                                            <span class="sr-only">60% Complete</span>
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 12%;">
+                                            <span class="sr-only">12%</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="w_right w_20">
-                                    <span>23k</span>
+                                    <span>12%</span>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="widget_summary">
                                 <div class="w_left w_25">
-                                    <span>Uva </span>
+                                    <span>European </span>
                                 </div>
                                 <div class="w_center w_55">
                                     <div class="progress">
                                         <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
-                                            <span class="sr-only">60% Complete</span>
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 7%;">
+                                            <span class="sr-only">7%</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="w_right w_20">
-                                    <span>3k</span>
+                                    <span>7%</span>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="widget_summary">
                                 <div class="w_left w_25">
-                                    <span>Nothern</span>
+                                    <span>African</span>
                                 </div>
                                 <div class="w_center w_55">
                                     <div class="progress">
                                         <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 2%;">
-                                            <span class="sr-only">60% Complete</span>
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 3%;">
+                                            <span class="sr-only">3%</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="w_right w_20">
-                                    <span>1k</span>
+                                    <span>3%</span>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -538,62 +499,31 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="x_panel tile fixed_height_320 overflow_hidden">
                         <div class="x_title">
-                            <h2>Top V2G Contributors</h2>
+                            <h2>Gender</h2>
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
-                            <table class="" style="width:100%">
+                            <table class="tile_info">
                                 <tr>
-                                    <th style="width:37%;">
-                                        <p>Top performers</p>
-                                    </th>
-                                    <th>
-                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
-                                            <p class=""></p>
-                                        </div>
-                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                                            <p class=""></p>
-                                        </div>
-                                    </th>
+                                    <td>
+                                        <p><i class="fa fa-square blue"></i>CMC </p>
+                                    </td>
+                                    <td>62%</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <canvas class="canvasDoughnut" height="140" width="140"
-                                                style="margin: 15px 10px 10px 0"></canvas>
+                                        <p><i class="fa fa-square green"></i>Foodcity </p>
                                     </td>
+                                    <td>48%</td>
+                                </tr>
+                            </table>
+                            <table class="" style="width:100%">
+                                <div class="container">
+                                    <div id="genderChart"></div>
+                                </div>
+                                <script src="gender.js"></script>
                                     <td>
-                                        <table class="tile_info">
-                                            <tr>
-                                                <td>
-                                                    <p><i class="fa fa-square blue"></i>CMC </p>
-                                                </td>
-                                                <td>30%</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p><i class="fa fa-square green"></i>Foodcity </p>
-                                                </td>
-                                                <td>10%</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p><i class="fa fa-square purple"></i>Keels </p>
-                                                </td>
-                                                <td>20%</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p><i class="fa fa-square aero"></i>Arpico </p>
-                                                </td>
-                                                <td>15%</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p><i class="fa fa-square red"></i>Others </p>
-                                                </td>
-                                                <td>30%</td>
-                                            </tr>
-                                        </table>
+
                                     </td>
                                 </tr>
                             </table>
@@ -612,7 +542,7 @@
 
                                 <div class="col-md-12 col-sm-12 col-xs-6">
                                     <div>
-                                        <p>7:00PM-7:59PM  0.00%</p>
+                                        <p>7:00PM-7:59PM 0.00%</p>
                                         <div class="">
                                             <div class="progress progress_sm" style="width: 76%;">
                                                 <div class="progress-bar bg-green" role="progressbar"
@@ -621,7 +551,7 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <p>8:00PM-8:59PM  0.00%</p>
+                                        <p>8:00PM-8:59PM 0.00%</p>
                                         <div class="">
                                             <div class="progress progress_sm" style="width: 76%;">
                                                 <div class="progress-bar bg-green" role="progressbar"
@@ -632,7 +562,7 @@
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-6">
                                     <div>
-                                        <p>9:00PM-9:59PM  0.00%</p>
+                                        <p>9:00PM-9:59PM 0.00%</p>
                                         <div class="">
                                             <div class="progress progress_sm" style="width: 76%;">
                                                 <div class="progress-bar bg-green" role="progressbar"
@@ -641,7 +571,7 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <p>10:00PM-10:59PM  0.00%</p>
+                                        <p>10:00PM-10:59PM 0.00%</p>
                                         <div class="">
                                             <div class="progress progress_sm" style="width: 76%;">
                                                 <div class="progress-bar bg-green" role="progressbar"
