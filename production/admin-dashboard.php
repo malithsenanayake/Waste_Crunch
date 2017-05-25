@@ -503,7 +503,7 @@
                                     <i class="fa fa-user green"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">Mr Wijeysinghe</a>
+                                    <a class="title" href="#">Mr Wijesinghe</a>
                                     <p><strong>BBQ Chef </strong> </p>
                                     <p>
                                         <small>View Profile</small>
@@ -515,7 +515,7 @@
                                     <i class="fa fa-user blue"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">Mr Tilakaratne</a>
+                                    <a class="title" href="#">Mrs Tilakaratne</a>
                                     <p><strong>Sue Chef</strong>  </p>
                                     <p>
                                         <small>View Profile</small>
@@ -670,7 +670,7 @@
                         <h4 class="modal-title">Profile Created</h4>
                     </div>
                     <div class="modal-body">
-                        <p>.</p>
+                        <p>System will be updated shortly</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
