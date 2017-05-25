@@ -38,126 +38,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css"/>
     <script>
-        document.getElementById("amount").innerHTML = localStorage.getItem("amount");
-    </script>
-    <script type="text/javascript">
-        window.onload = function () {
-
-
-            var dataPoints1 = [];
-            var dataPoints2 = [];
-
-            var chart = new CanvasJS.Chart("chartContainer", {
-                zoomEnabled: true,
-                title: {},
-                toolTip: {
-                    shared: true
-
-                },
-                legend: {
-                    verticalAlign: "top",
-                    horizontalAlign: "center",
-                    fontSize: 18,
-                    fontWeight: "bold",
-                    fontFamily: "calibri",
-                    fontColor: "dimGrey"
-                },
-
-                axisY: {
-                    prefix: 'Kw',
-                    includeZero: false
-                },
-                data: [{
-                    type: "line",
-                    xValueType: "dateTime",
-                    showInLegend: true,
-                    name: "Today",
-                    dataPoints: dataPoints1
-                },
-                    {
-
-                        type: "line",
-                        xValueType: "dateTime",
-                        showInLegend: true,
-                        name: "17/05/2017",
-                        dataPoints: dataPoints2
-                    }],
-                legend: {
-                    cursor: "pointer",
-                    itemclick: function (e) {
-                        if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-                            e.dataSeries.visible = false;
-                        }
-                        else {
-                            e.dataSeries.visible = true;
-                        }
-                        chart.render();
-                    }
-                }
-            });
-
-
-            var updateInterval = 1000;
-
-            var yValue1 = 100;
-            var yValue2 = 55;
-
-            var time = new Date;
-            time.setHours(10);
-            time.setMinutes(40);
-            time.setSeconds(00);
-            time.setMilliseconds(00);
-
-
-            var updateChart = function (count) {
-                count = count || 1;
-
-                for (var i = 0; i < count; i++) {
-
-
-                    time.setTime(time.getTime() + updateInterval);
-
-
-                    var deltaY1 = .5 + Math.random() * (-.5 - .5);
-                    var deltaY2 = .5 + Math.random() * (-.5 - .5);
-
-
-                    yValue1 = Math.round((yValue1 + deltaY1) * 100) / 100;
-                    yValue2 = Math.round((yValue2 + deltaY2) * 100) / 100;
-
-
-                    dataPoints1.push({
-                        x: time.getTime(),
-                        y: yValue1
-                    });
-                    dataPoints2.push({
-                        x: time.getTime(),
-                        y: yValue2
-                    });
-
-
-                }
-                ;
-
-                chart.options.data[0].legendText = "Today Kw " + yValue1;
-                chart.options.data[1].legendText = " 17/05/2017 Kw " + yValue2;
-
-                chart.render();
-
-            };
-
-            updateChart(1000);
-
-            setInterval(function () {
-                updateChart()
-            }, updateInterval);
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('txt').innerHTML =
+                h + ":" + m + ":" + s;
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+            return i;
         }
     </script>
 </head>
 
 <!--Side bar coding-->
-
-<body class="nav-md">
+<body class="nav-md" onload="startTime()">
 <div class="container body">
     <div class="main_container">
         <div class="col-md-3 left_col">
@@ -332,41 +232,44 @@
             <!-- top tiles -->
             <div class="row tile_count">
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12" style=" color: white">
-                    <div class="tile-stats" style=" background-color: #3498db;  color: white">
+                    <a href="breakfast_menu.html"> <div class="tile-stats" style=" background-color: #3498db;  color: white">
                         <div class="icon"><i class="fa fa-check-square-o"></i>
-                            <br><br><br><h3>12%</h3>
+                            <br><br><br>
+                            <h3>12%</h3>
                         </div>
                         <div class="count">Breakfast</div>
                         <h3>Submitted</h3>
-                        <p>Lorem ipsum psdea itgum rixt.</p>
-                    </div>
+                        <p>Total Wastage</p>
+                    </div></a>
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="tile-stats" style=" background-color: #6f6bbf; color: white">
                         <div class="icon"><i class="fa fa-check-square-o"></i>
-                            <br><br><br><h3>2%</h3>
+                            <br><br><br>
+                            <h3>2%</h3>
                         </div>
                         <div class="count">Lunch</div>
                         <h3>Submitted</h3>
-                        <p>Lorem ipsum psdea itgum rixt.</p>
+                        <p>Total Wastage</p>
                     </div>
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="tile-stats" style=" background-color: #00a85b;  color: white">
                         <div class="icon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                            <br><br><br><h3>-</h3>
-                            </div>
+                            <br><br><br>
+                            <h3>-</h3>
+                        </div>
                         <div class="count">Dinner</div>
                         <h3>Pending</h3>
-                        <p>Lorem ipsum psdea itgum rixt.</p>
+                        <p>Total Wastage</p>
                     </div>
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="tile-stats" style=" background-color: #de4e3c;  color: white">
                         <div class="icon"></div>
                         <div class="count">Wastage</div>
-                        <h3>Details</h3>
-                        <p>Lorem ipsum psdea itgum rixt.</p>
+                        <h3 id="txt"></h3>
+                        <p>Total Wastage</p>
                     </div>
                 </div>
             </div>
@@ -382,8 +285,8 @@
                                     <h2>Daily V2G Performance - Overview </h2>
                                     <div class="clearfix"></div>
                                 </div>
-                                <iframe width="503.5" height="357.5" seamless frameborder="0" scrolling="no"
-                                        src="https://docs.google.com/spreadsheets/d/187QkLmSTSFqTxgW4atqggBkCcOAMPMLzyhqgqTXkMDg/pubchart?oid=680890861&amp;format=interactive"></iframe>
+                                <iframe width="100%" height="354" seamless frameborder="0" scrolling="no"
+                                        src="https://docs.google.com/spreadsheets/d/187QkLmSTSFqTxgW4atqggBkCcOAMPMLzyhqgqTXkMDg/pubchart?oid=32122629&amp;format=interactive"></iframe>
                             </div>
 
                         </div>
@@ -396,7 +299,58 @@
             <br/>
 
             <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel tile fixed_height_320 overflow_hidden">
+                        <div class="x_title">
+                            <h2>Gender</h2>
+                            <div class="clearfix"></div>
+                        </div>
 
+                        <div class="x_content">
+
+                            <div row="">
+                            <span>
+                             <div class="col-md-12">
+                             <div class="col-md-6">
+                                 <center>
+                            <div style="width: 100%;     margin-top: -45px;">
+                            <table style="width:100%">
+
+                                    <div id="genderChart"></div>
+
+                                <script src="gender.js"></script>
+                                <td>
+
+                                </td>
+                                </tr>
+                            </table>
+                            </div>
+                            </center>
+                             </div>
+                                 <div class="col-md-6">
+                                      <table class="tile_info">
+                                <tr>
+                                    <td>
+                                        <p><i class="fa fa-square blue"></i>Male </p>
+                                    </td>
+                                    <td>62%</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p><i class="fa fa-square green"></i>Female </p>
+                                    </td>
+                                    <td>48%</td>
+                                </tr>
+                            </table>
+                             </div>
+                             </div>
+                            </span>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="x_panel tile fixed_height_320">
@@ -496,40 +450,6 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="x_panel tile fixed_height_320 overflow_hidden">
-                        <div class="x_title">
-                            <h2>Gender</h2>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="x_content">
-                            <table class="tile_info">
-                                <tr>
-                                    <td>
-                                        <p><i class="fa fa-square blue"></i>CMC </p>
-                                    </td>
-                                    <td>62%</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p><i class="fa fa-square green"></i>Foodcity </p>
-                                    </td>
-                                    <td>48%</td>
-                                </tr>
-                            </table>
-                            <table class="" style="width:100%">
-                                <div class="container">
-                                    <div id="genderChart"></div>
-                                </div>
-                                <script src="gender.js"></script>
-                                    <td>
-
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="x_panel tile fixed_height_320">

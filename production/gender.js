@@ -3,8 +3,8 @@ d3.json("gender.json", function (data) {
         bindto: '#genderChart',
         data: {
             columns: [
-                ['Femenino', data.female],
-                ['Masculino', data.male]
+                ['Female', data.female],
+                ['Male', data.male]
             ],
             type : 'pie'
         },
