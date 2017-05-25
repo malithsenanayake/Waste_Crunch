@@ -26,22 +26,22 @@
             <br>
             <h3><u>Executive Chef Functions</u></h3>
             <ul class="nav side-menu">
-                <li><a><i class="fa fa-home"></i>Dasboards <span class="fa fa-chevron-down"></span></a>
+                <li><a><i class="fa fa-home"></i>Dashboards <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="index1.php">Main Dashboard</a></li>
-                        <li><a href="index2.html">A-La Carte Trends</a></li>
-                        <li><a href="index3.html">Bufft Trends</a></li>
-                        <li><a href="index3.html">Wastage Trends</a></li>
+                        <li><a href="ex-chef-dashboard.php">Main Dashboard</a></li>
+                        <li><a href="ex-chef-alacart-trends.php">A-La Carte Trends</a></li>
+                        <li><a href="ex-chef-buffet-trends.php">Buffet Trends</a></li>
+                        <li><a href="ex-chef-wastage.php">Wastage Trends</a></li>
                     </ul>
                 </li>
                 <br>
                 <h3>Edit/View Menu Items</h3>
                 <br>
-                <li><a href="set-values.php"><i class="fa fa-edit"></i> Brakast Menu</a>
+                <li><a href="ex-chef-breakfast-menu.php"><i class="fa fa-edit"></i> Breakfast Menu</a>
                 </li>
-                <li><a href="request_V2G_Electricity.html"><i class="fa fa-edit"></i>Lunch Menu</a>
+                <li><a href="ex-chef-lunch-menu.php"><i class="fa fa-edit"></i>Lunch Menu</a>
                 </li>
-                <li><a href="set-values.php"><i class="fa fa-edit"></i> Dinner Menu</a>
+                <li><a href="ex-chef-dinner-menu.php"><i class="fa fa-edit"></i> Dinner Menu</a>
                 </li>
                 <br>
                 <h3>Edit/View Staff Functions</h3>
@@ -56,17 +56,16 @@
                 <li><a><i class="fa fa-table"></i> A-La Carte Wastage<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                         <li><a href="profile.html">Breakfast</a></li>
-                        <li><a href="Profile.html">Lunch</a></li>git pull
-
+                        <li><a href="Profile.html">Lunch</a></li>
                         <li><a href="contacts.html">Dinner</a></li>
                     </ul>
                 </li>
                 <br>
-                <h3>Notifications and Messeges</h3>
+                <h3>Notifications and Messages</h3>
                 <br>
-                <li><a><i class="fa fa-envelope"></i> Messeges <span class="fa fa-chevron-down"></span></a>
+                <li><a><i class="fa fa-envelope"></i> Messages <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="inbox.php">inbox</a></li>
+                        <li><a href="inbox.php">Inbox</a></li>
                     </ul>
                 </li>
             </ul>
@@ -74,9 +73,9 @@
         <div class="menu_section">
             <h3>Performance</h3>
             <ul class="nav side-menu">
-                <li><a><i class="fa fa-desktop"></i>reports <span class="fa fa-chevron-down"></span></a>
+                <li><a><i class="fa fa-desktop"></i>Reports <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                        <li><a href="inbox.php">Overall reports</a></li>
+                        <li><a href="inbox.php">Overall Reports</a></li>
                     </ul>
                 </li>
             </ul>
