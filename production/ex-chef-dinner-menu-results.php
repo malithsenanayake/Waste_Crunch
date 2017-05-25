@@ -20,13 +20,6 @@
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
-
-
-    <style>
-        .hidden {
-            display:none;
-        }
-    </style>
 </head>
 
 <body class="nav-md">
@@ -105,29 +98,11 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    <tr id="color1">
+                                    <tr>
                                         <th scope="row">1</th>
-                                        <td id="saladName">Beef Salad</td>
+                                        <td>Beef Salad</td>
                                         <td>Bread buns</td>
                                         <td>Soup</td>
-                                        <td>
-
-
-                                            <div id="target" style="display: none">
-                                                <div class="dropdown">
-                                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Dish
-                                                        <span class="caret"></span></button>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a onclick="changeText('Chicken Salad')">Chicken Salad</a></li>
-                                                        <li><a onclick="changeText('Potato Salad')">Potato Salad</a></li>
-                                                        <li><a onclick="changeText('Cesar Salad')">Cesar Salad</a></li>
-                                                    </ul>
-                                                    <a class="btn btn-success submit" onclick="colorRevert(); alertMsg(); ">Submit</a>
-                                                </div>
-                                            </div>
-
-
-                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
@@ -341,7 +316,7 @@
                 </div>
 
                 <div class="row">
-                    <center><a class="btn btn-success btn-lg submit" onclick="$('#target').toggle(); changeColour(); ">Check Availability</a></center>
+                    <center><a class="btn btn-success btn-lg submit" href="ex-chef-dashboard.php">Check Availability</a></center>
                 </div>
             </div>
         </div>
@@ -371,38 +346,5 @@
 
 <!-- Custom Theme Scripts -->
 <script src="../build/js/custom.min.js"></script>
-
-<script>
-    function changeColour() {
-//        $('#hiddenTD').toggle();
-        document.getElementById("color1").style.backgroundColor='red';
-        document.getElementById("color1").style.color='white';
-
-    }
-
-    function colorRevert() {
-        document.getElementById("color1").style.backgroundColor='white';
-        document.getElementById("color1").style.color='black';
-
-    }
-
-
-    function changeText(salad)
-    {
-        document.getElementById("saladName").innerHTML = salad;
-    }
-
-
-    function alertMsg()
-    {
-
-
-
-        alert('You selected ' + document.getElementById("saladName").textContent + '. ' + 'Your Menu has been submitted!');
-        window.location = 'ex-chef-dashboard.php';
-    }
-
-
-</script>
 </body>
 </html>
