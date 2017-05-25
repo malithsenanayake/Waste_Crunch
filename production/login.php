@@ -69,8 +69,8 @@
                 <br />
 
                 <div>
-                  <h1><img src="images/GreenPayLogo.png"></h1>
-                  <p>© 2017 All Rights Reserved. Copyrights: Green Pay 2017 v1.0</p>
+                  <h1> &nbsp;<img src="images/big-black.png">&nbsp;&nbsp;<span><b>Waste</b></span><span>Crunch</span></h1>
+                    <p>©2017 All Rights Reserved. Copyrights: <span><b>Waste</b></span>Crunch 2017 v1.0</p>
                 </div>
               </div>
             </form>
@@ -105,8 +105,8 @@
                 <br />
 
                 <div>
-                  <h1><img src="images/GreenPayLogo.png"></h1>
-                  <p>©2017 All Rights Reserved. Copyrights: Green Pay 2017 v1.0</p>
+                  <h1><img src="images/big-black.png"></h1>
+                    <p>©2017 All Rights Reserved. Copyrights: <span>Waste</span>Crunch 2017 v1.0</p>
                 </div>
               </div>
             </form>
