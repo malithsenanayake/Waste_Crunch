@@ -295,7 +295,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="x_panel tile fixed_height_320">
                         <div class="x_title">
-                            <h2>Peak Hour Performance (Killo Watts)</h2>
+                            <h2>Food Preferences</h2>
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
@@ -303,44 +303,25 @@
 
                                 <div class="col-md-12 col-sm-12 col-xs-6">
                                     <div>
-                                        <p>7:00PM-7:59PM 0.00%</p>
+                                        <p>Vegetarian 20%</p>
                                         <div class="">
-                                            <div class="progress progress_sm" style="width: 76%;">
+                                            <div class="progress progress-bar-success" style="width: 20%;">
                                                 <div class="progress-bar bg-green" role="progressbar"
                                                      data-transitiongoal="1"></div>
                                             </div>
                                         </div>
                                     </div>
                                     <div>
-                                        <p>8:00PM-8:59PM 0.00%</p>
+                                        <p>Non-vegetarian 80%</p>
                                         <div class="">
-                                            <div class="progress progress_sm" style="width: 76%;">
+                                            <div class="progress progress-bar-success" style="width: 80%;">
                                                 <div class="progress-bar bg-green" role="progressbar"
                                                      data-transitiongoal="1"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-12 col-sm-12 col-xs-6">
-                                    <div>
-                                        <p>9:00PM-9:59PM 0.00%</p>
-                                        <div class="">
-                                            <div class="progress progress_sm" style="width: 76%;">
-                                                <div class="progress-bar bg-green" role="progressbar"
-                                                     data-transitiongoal="1"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <p>10:00PM-10:59PM 0.00%</p>
-                                        <div class="">
-                                            <div class="progress progress_sm" style="width: 76%;">
-                                                <div class="progress-bar bg-green" role="progressbar"
-                                                     data-transitiongoal="1"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
 
                             </div>
                         </div>
