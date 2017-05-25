@@ -72,7 +72,7 @@
                                     <li><a href="index3.html">EV Dashboard</a></li>
                                 </ul>
                             </li>
-                            <li><a href="set_values.html"><i class="fa fa-edit"></i> Set Values</a>
+                            <li><a href="set-values.php"><i class="fa fa-edit"></i> Set Values</a>
                             </li>
                             <li><a href="request_V2G_Electricity.html"><i class="fa fa-desktop"></i> Request V2G Electricity</a>
                             </li>
@@ -85,7 +85,7 @@
                             </li>
                             <li><a><i class="fa fa-envelope"></i> Messeges <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.html">inbox</a></li>
+                                    <li><a href="inbox.php">inbox</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -95,8 +95,8 @@
                         <ul class="nav side-menu">
                             <li><a><i class="fa fa-desktop"></i>reports <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.html">Financial reports</a></li>
-                                    <li><a href="inbox.html">V2G performance reports</a></li>
+                                    <li><a href="inbox.php">Financial reports</a></li>
+                                    <li><a href="inbox.php">V2G performance reports</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -189,7 +189,7 @@
                                 <li>
                                     <div class="text-center">
                                         <a>
-                                            <strong><a href="inbox.html">See All Alerts</a></strong>
+                                            <strong><a href="inbox.php">See All Alerts</a></strong>
                                             <i class="fa fa-angle-right"></i>
                                         </a>
                                     </div>

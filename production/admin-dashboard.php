@@ -185,11 +185,11 @@
                             <br>
                             <h3>Edit/View Menu Items</h3>
                             <br>
-                            <li><a href="set_values.html"><i class="fa fa-edit"></i> Brakast Menu</a>
+                            <li><a href="set-values.php"><i class="fa fa-edit"></i> Brakast Menu</a>
                             </li>
                             <li><a href="request_V2G_Electricity.html"><i class="fa fa-edit"></i>Lunch Menu</a>
                             </li>
-                            <li><a href="set_values.html"><i class="fa fa-edit"></i> Dinner Menu</a>
+                            <li><a href="set-values.php"><i class="fa fa-edit"></i> Dinner Menu</a>
                             </li>
                             <br>
                             <h3>Edit/View Staff Functions</h3>
@@ -213,7 +213,7 @@
                             <br>
                             <li><a><i class="fa fa-envelope"></i> Messeges <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.html">inbox</a></li>
+                                    <li><a href="inbox.php">inbox</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -223,7 +223,7 @@
                         <ul class="nav side-menu">
                             <li><a><i class="fa fa-desktop"></i>reports <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.html">Overall reports</a></li>
+                                    <li><a href="inbox.php">Overall reports</a></li>
                                 </ul>
                             </li>
                         </ul>

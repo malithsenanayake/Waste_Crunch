@@ -54,7 +54,7 @@
                 <input type="password" class="form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="executive-chef-dashboard.html">Log in</a>
+                <a class="btn btn-default submit" href="executive-chef-dashboard.php">Log in</a>
                 <a class="reset_pass" href="#">Lost your password?</a>
               </div>
 
@@ -70,7 +70,7 @@
 
                 <div>
                   <h1><img src="images/GreenPayLogo.png"></h1>
-                  <p>©2017 All Rights Reserved. Copyrights: Green Pay 2017 v1.0</p>
+                  <p>© 2017 All Rights Reserved. Copyrights: Green Pay 2017 v1.0</p>
                 </div>
               </div>
             </form>
@@ -91,7 +91,7 @@
                 <input type="password" class="form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="executive-chef-dashboard.html">Submit</a>
+                <a class="btn btn-default submit" href="executive-chef-dashboard.php">Submit</a>
               </div>
 
               <div class="clearfix"></div>

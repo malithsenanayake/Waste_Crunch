@@ -79,13 +79,13 @@
                                     <li><a href="glyphicons.html">Glyphicons</a></li>
                                     <li><a href="widgets.html">Widgets</a></li>
                                     <li><a href="invoice.html">Invoice</a></li>
-                                    <li><a href="inbox.html">Inbox</a></li>
+                                    <li><a href="inbox.php">Inbox</a></li>
                                     <li><a href="calendar.html">Calendar</a></li>
                                 </ul>
                             </li>
                             <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="breakfast_menu.html">Tables</a></li>
+                                    <li><a href="breakfast-menu.php">Tables</a></li>
                                     <li><a href="tables_dynamic.html">Table Dynamic</a></li>
                                 </ul>
                             </li>
@@ -126,7 +126,7 @@
                                     <li><a href="page_404.html">404 Error</a></li>
                                     <li><a href="page_500.html">500 Error</a></li>
                                     <li><a href="plain_page.html">Plain Page</a></li>
-                                    <li><a href="login.html">Login Page</a></li>
+                                    <li><a href="login.php">Login Page</a></li>
                                     <li><a href="pricing_tables.html">Pricing Tables</a></li>
                                 </ul>
                             </li>
@@ -167,7 +167,7 @@
                     <a data-toggle="tooltip" data-placement="top" title="Lock">
                         <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
                     </a>
-                    <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                    <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.php">
                         <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
                     </a>
                 </div>
@@ -199,7 +199,7 @@
                                     </a>
                                 </li>
                                 <li><a href="javascript:;">Help</a></li>
-                                <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                <li><a href="login.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                             </ul>
                         </li>
 
@@ -279,9 +279,9 @@
             <div class="">
                 <div class="page-title">
                     <div style="margin-top: 58px;">
-                        <div class="row" style="background-color: #de4e3c">
+                        <div class="row" style="background-color: #6f6bbf">
                             <div class="title_left">
-                                <h1 style="color: white">&nbsp; &nbsp;Wastage</h1>
+                                <h1 style="color: white">&nbsp; &nbsp;Lunch Menu</h1>
                             </div>
                             <div class="title_right">
                                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">

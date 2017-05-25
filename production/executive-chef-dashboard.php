@@ -99,11 +99,11 @@
                             <br>
                             <h3>Edit/View Menu Items</h3>
                             <br>
-                            <li><a href="set_values.html"><i class="fa fa-edit"></i> Brakast Menu</a>
+                            <li><a href="set-values.php"><i class="fa fa-edit"></i> Brakast Menu</a>
                             </li>
                             <li><a href="request_V2G_Electricity.html"><i class="fa fa-edit"></i>Lunch Menu</a>
                             </li>
-                            <li><a href="set_values.html"><i class="fa fa-edit"></i> Dinner Menu</a>
+                            <li><a href="set-values.php"><i class="fa fa-edit"></i> Dinner Menu</a>
                             </li>
                             <br>
                             <h3>Edit/View Staff Functions</h3>
@@ -128,7 +128,7 @@
                             <br>
                             <li><a><i class="fa fa-envelope"></i> Messeges <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.html">inbox</a></li>
+                                    <li><a href="inbox.php">inbox</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -138,7 +138,7 @@
                         <ul class="nav side-menu">
                             <li><a><i class="fa fa-desktop"></i>reports <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.html">Overall reports</a></li>
+                                    <li><a href="inbox.php">Overall reports</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -251,7 +251,7 @@
             <!-- top tiles -->
             <div class="row tile_count">
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12" style=" color: white">
-                    <a href="breakfast_menu.html"> <div class="tile-stats" style=" background-color: #3498db;  color: white">
+                    <a href="breakfast-menu.php"> <div class="tile-stats" style=" background-color: #3498db;  color: white">
                         <div class="icon"><i class="fa fa-check-square-o"></i>
                             <br><br><br>
                             <h3>12%</h3>
@@ -262,7 +262,7 @@
                     </div></a>
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <a href="lunch_menu.html"> <div class="tile-stats" style=" background-color: #6f6bbf; color: white">
+                    <a href="lunch-menu.php"> <div class="tile-stats" style=" background-color: #6f6bbf; color: white">
                         <div class="icon"><i class="fa fa-check-square-o"></i>
                             <br><br><br>
                             <h3>2%</h3>
@@ -273,7 +273,7 @@
                     </div></a>
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <a href="dinner_menu.html"><div class="tile-stats" style=" background-color: #00a85b;  color: white">
+                    <a href="dinner-menu.php"><div class="tile-stats" style=" background-color: #00a85b;  color: white">
                         <div class="icon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                             <br><br><br>
                             <h3>-</h3>

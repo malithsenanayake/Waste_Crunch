@@ -184,7 +184,7 @@
                 <li>
                   <div class="text-center">
                     <a>
-                      <strong><a href="inbox.html">See All Alerts</a></strong>
+                      <strong><a href="inbox.php">See All Alerts</a></strong>
                       <i class="fa fa-angle-right"></i>
                     </a>
                   </div>
