@@ -100,21 +100,21 @@
                                     <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td> Crossaints </td>
+                                        <td>  Flour </td>
+                                        <td>  15 Kg </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td>Fresh milk</td>
+                                        <td> Milk </td>
+                                        <td> 35 Kg </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td> Kolakanda </td>
+                                        <td> Spinash </td>
+                                        <td> 8 Kg </td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -127,7 +127,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Entree Items
+                                <h2> Main items
                                     <small></small>
                                 </h2>
                                 <ul class="nav navbar-right panel_toolbox">
@@ -162,21 +162,21 @@
                                     <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td> French toast </td>
+                                        <td> Bread  </td>
+                                        <td> 8 Kg </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td> Milk rice </td>
+                                        <td> rice </td>
+                                        <td> 5 Kg </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td> Hoppers </td>
+                                        <td> flour </td>
+                                        <td> 4 Kg </td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -190,7 +190,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Entree Items
+                                <h2> Dessert Items
                                     <small></small>
                                 </h2>
                                 <ul class="nav navbar-right panel_toolbox">
@@ -225,21 +225,21 @@
                                     <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td> Donuts </td>
+                                        <td> flour </td>
+                                        <td> 5 Kg </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td> Friut salad </td>
+                                        <td> Apples </td>
+                                        <td> 2 Kg </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td> Bread pudding </td>
+                                        <td> bra </td>
+                                        <td> 5 Kg </td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -252,7 +252,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Entree Items
+                                <h2> Extra items
                                     <small></small>
                                 </h2>
                                 <ul class="nav navbar-right panel_toolbox">
@@ -279,29 +279,29 @@
                                     <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Item Name</th>
-                                        <th>Ingredients</th>
-                                        <th>Quantity</th>
+                                        <th> Drinks </th>
+                                        <th> Action station items </th>
+                                        <th> BBQ </th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td> Orange juice</td>
+                                        <td> Sausages </td>
+                                        <td> Pork </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td>Apple juice </td>
+                                        <td> Bacon </td>
+                                        <td> Beef </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td> Milkshake </td>
+                                        <td> Eggs </td>
+                                        <td> Stake </td>
                                     </tr>
                                     </tbody>
                                 </table>

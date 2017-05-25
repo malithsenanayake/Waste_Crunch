@@ -160,8 +160,8 @@
                         <img src="images/user.png" alt="..." class="img-circle profile_img">
                     </div>
                     <div class="profile_info">
-                        <span>Executive Chef,</span>
-                        <h2>Mr.W.Weerasekara</h2>
+                        <span>System Admin,</span>
+                        <h2>Admin 01</h2>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->
@@ -172,46 +172,18 @@
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                     <div class="menu_section">
                         <br>
-                        <h3><u>Executive Chef Functions</u></h3>
+                        <h3>Admin Functions</h3>
                         <ul class="nav side-menu">
-                            <li><a><i class="fa fa-home"></i>Dasboards <span class="fa fa-chevron-down"></span></a>
+                            <li><a><i class="fa fa-home"></i>Dashboards <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="index1.php">Main Dashboard</a></li>
-                                    <li><a href="index2.html">A-La Carte Trends</a></li>
-                                    <li><a href="index3.html">Bufft Trends</a></li>
-                                    <li><a href="index3.html">Wastage Trends</a></li>
+                                    <li><a href="admin-dashboard.php">Main Dashboard</a></li>
+                                    <li><a href="index2.html">Buffet and A-La-Carte menu</a></li>
                                 </ul>
                             </li>
                             <br>
-                            <h3>Edit/View Menu Items</h3>
+                            <h3>Notifications and Messages</h3>
                             <br>
-                            <li><a href="set-values.php"><i class="fa fa-edit"></i> Brakast Menu</a>
-                            </li>
-                            <li><a href="request_V2G_Electricity.html"><i class="fa fa-edit"></i>Lunch Menu</a>
-                            </li>
-                            <li><a href="set-values.php"><i class="fa fa-edit"></i> Dinner Menu</a>
-                            </li>
-                            <br>
-                            <h3>Edit/View Staff Functions</h3>
-                            <br>
-                            <li><a><i class="fa fa-table"></i> Buffet Trends<span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="profile.html">Breakfast</a></li>
-                                    <li><a href="Profile.html">Lunch</a></li>
-                                    <li><a href="contacts.html">Dinner</a></li>
-                                </ul>
-                            </li>
-                            <li><a><i class="fa fa-table"></i> A-La Carte Trends<span class="fa fa-chevron-down"></span></a>
-                                <ul class="nav child_menu">
-                                    <li><a href="profile.html">Breakfast</a></li>
-                                    <li><a href="Profile.html">Lunch</a></li>
-                                    <li><a href="contacts.html">Dinner</a></li>
-                                </ul>
-                            </li>
-                            <br>
-                            <h3>Notifications and Messeges</h3>
-                            <br>
-                            <li><a><i class="fa fa-envelope"></i> Messeges <span class="fa fa-chevron-down"></span></a>
+                            <li><a><i class="fa fa-envelope"></i> Messages <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="inbox.php">inbox</a></li>
                                 </ul>
@@ -246,7 +218,7 @@
                         <li class="">
                             <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
                                aria-expanded="false">
-                                <img src="images/img.jpg" alt="">Mr.W.Weerasekara
+                                <img src="images/img.jpg" alt="">Sysytem Admin
                                 <span class=" fa fa-angle-down"></span>
                             </a>
                             <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -351,7 +323,7 @@
                     </div>
                     <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="tile-stats">
-                            <div class="count">3</div>
+                            <div class="count">4</div>
                             <h3>Executive Profiles</h3>
                             <p>View Details</p>
                         </div>
@@ -393,27 +365,115 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Profile Creation
-                                </h2>
-                                <div class="filter">
-                                </div>
+                                <h2>Form Design <small>different form elements</small></h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Settings 1</a>
+                                            </li>
+                                            <li><a href="#">Settings 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
                                 <div class="clearfix"></div>
                             </div>
                             <div class="x_content">
-                                <div class="col-md-9 col-sm-12 col-xs-12">
-                                    <div id="chartContainer" style="height: 300px; width: 135%;">
+                                <br />
+                                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">First Name <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
                                     </div>
-                                </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Last Name <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Middle Name / Initial</label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Gender</label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div id="gender" class="btn-group" data-toggle="buttons">
+                                                <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                                                    <input type="radio" name="gender" value="male"> &nbsp; Male &nbsp;
+                                                </label>
+                                                <label class="btn btn-primary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                                                    <input type="radio" name="gender" value="female"> Female
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Date Of Birth <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Password</label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="password" class="form-control" value="passwordonetwo">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Select authentication level</label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" class="flat" checked name="iCheck"> Kichen Staff
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" class="flat" checked name="iCheck"> Management
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" class="flat" checked name="iCheck"> Executive
+                                                </label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" class="flat" checked name="iCheck"> Admin
+                                                </label>
+                                            </div>
+                                            <div class="ln_solid"></div>
+                                            <div class="form-group">
+                                                <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                                    <button class="btn btn-primary" type="reset">Reset</button>
+                                                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Create Profile</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <center></center>
 
 
+                                </form>
                             </div>
-
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -421,7 +481,7 @@
                 <div class="col-md-4">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Top V2G profiles
+                            <h2>Kitchen Staff profiles
                             </h2>
                             <div class="clearfix"></div>
                         </div>
@@ -431,10 +491,10 @@
                                     <i class="fa fa-user aero"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">Keels super 01</a>
-                                    <p><strong>Kw provided:1200. </strong></p>
+                                    <a class="title" href="#">Mr Ranaweera</a>
+                                    <p><strong>Level 1 Chef. </strong></p>
                                     <p>
-                                        <small>4 inputs Today</small>
+                                        <small>View Profile</small>
                                     </p>
                                 </div>
                             </li>
@@ -443,10 +503,10 @@
                                     <i class="fa fa-user green"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">Keels super 03</a>
-                                    <p><strong>Kw provided:1130 </strong> </p>
+                                    <a class="title" href="#">Mr Wijesinghe</a>
+                                    <p><strong>BBQ Chef </strong> </p>
                                     <p>
-                                        <small>3 inputs Today</small>
+                                        <small>View Profile</small>
                                     </p>
                                 </div>
                             </li>
@@ -455,10 +515,10 @@
                                     <i class="fa fa-user blue"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">CMC CMB</a>
-                                    <p><strong>Kw provided:1010 </strong>  </p>
+                                    <a class="title" href="#">Mrs Tilakaratne</a>
+                                    <p><strong>Sue Chef</strong>  </p>
                                     <p>
-                                        <small>2 inputs Today</small>
+                                        <small>View Profile</small>
                                     </p>
                                 </div>
                             </li>
@@ -467,10 +527,10 @@
                                     <i class="fa fa-user aero"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">Food city</a>
-                                    <p><strong>Kw provided:980 </strong> </p>
+                                    <a class="title" href="#">Mrs Balasooriya</a>
+                                    <p><strong>Action station incharge </strong> </p>
                                     <p>
-                                        <small>1 input Today</small>
+                                        <small>View Profile</small>
                                     </p>
                                 </div>
                             </li>
@@ -481,7 +541,7 @@
                 <div class="col-md-4">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Top EV profiles
+                            <h2>Manager profiles
                             </h2>
                             <div class="clearfix"></div>
                         </div>
@@ -492,9 +552,9 @@
                                 </a>
                                 <div class="media-body">
                                     <a class="title" href="#">Ms. Thisuri Dematagoda</a>
-                                    <p><strong>Kw provided:15. </strong></p>
+                                    <p><strong>Finance manager 01 </strong></p>
                                     <p>
-                                        <small>4 inputs Today</small>
+                                        <small>View Profile</small>
                                     </p>
                                 </div>
                             </li>
@@ -504,9 +564,9 @@
                                 </a>
                                 <div class="media-body">
                                     <a class="title" href="#">Mr. Nishan Fernando</a>
-                                    <p><strong>Kw provided:13 </strong> </p>
+                                    <p><strong>Finance manager 02</strong> </p>
                                     <p>
-                                        <small>3 inputs Today</small>
+                                        <small>View Profile</small>
                                     </p>
                                 </div>
                             </li>
@@ -516,9 +576,9 @@
                                 </a>
                                 <div class="media-body">
                                     <a class="title" href="#">Ms. Luxi Ganesh</a>
-                                    <p><strong>Kw provided:12 </strong>  </p>
+                                    <p><strong>Manager alacarte </strong>  </p>
                                     <p>
-                                        <small>2 inputs Today</small>
+                                        <small>View Profile</small>
                                     </p>
                                 </div>
                             </li>
@@ -528,9 +588,9 @@
                                 </a>
                                 <div class="media-body">
                                     <a class="title" href="#">Ms.Thashma Abeysinghe</a>
-                                    <p><strong>Kw provided:10 </strong> </p>
+                                    <p><strong>Manager f&b </strong> </p>
                                     <p>
-                                        <small>1 input Today</small>
+                                        <small>View Profile</small>
                                     </p>
                                 </div>
                             </li>
@@ -541,64 +601,82 @@
                 <div class="col-md-4">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>V2G input History
+                            <h2>Executive profiles
                             </h2>
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
-                            <article class="media event">
-                                <a class="pull-left date">
-                                    <p class="month">May</p>
-                                    <p class="day">17</p>
+                            <li class="media event">
+                                <a class="pull-left border-aero profile_thumb">
+                                    <i class="fa fa-user aero"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">View Report</a>
-                                    <p>V2G inputs and user data</p>
+                                    <a class="title" href="#">Ms.Weerasooriya</a>
+                                    <p><strong>Executive 01 </strong></p>
+                                    <p>
+                                        <small>View Profile</small>
+                                    </p>
                                 </div>
-                            </article>
-                            <article class="media event">
-                                <a class="pull-left date">
-                                    <p class="month">May</p>
-                                    <p class="day">16</p>
+                            </li>
+                            <li class="media event">
+                                <a class="pull-left border-green profile_thumb">
+                                    <i class="fa fa-user green"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">View Report</a>
-                                    <p>V2G inputs and user data</p>
+                                    <a class="title" href="#">Mr. Fernando</a>
+                                    <p><strong>Executive 02</strong> </p>
+                                    <p>
+                                        <small>Executive 01</small>
+                                    </p>
                                 </div>
-                            </article>
-                            <article class="media event">
-                                <a class="pull-left date">
-                                    <p class="month">May</p>
-                                    <p class="day">15</p>
+                            </li>
+                            <li class="media event">
+                                <a class="pull-left border-blue profile_thumb">
+                                    <i class="fa fa-user blue"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">View Report</a>
-                                    <p>V2G inputs and user data</p>
+                                    <a class="title" href="#">Ms. Luxi Ganesh</a>
+                                    <p><strong>Executive 03</strong>  </p>
+                                    <p>
+                                        <small>View Profile</small>
+                                    </p>
                                 </div>
-                            </article>
-                            <article class="media event">
-                                <a class="pull-left date">
-                                    <p class="month">May</p>
-                                    <p class="day">14</p>
+                            </li>
+                            <li class="media event">
+                                <a class="pull-left border-aero profile_thumb">
+                                    <i class="fa fa-user aero"></i>
                                 </a>
                                 <div class="media-body">
-                                    <a class="title" href="#">View Report</a>
-                                    <p>V2G inputs and user data</p>
+                                    <a class="title" href="#">Ms.Abeysinghe</a>
+                                    <p><strong>Executive 04 </strong> </p>
+                                    <p>
+                                        <small>View Profile</small>
+                                    </p>
                                 </div>
-                            </article>
-                            <article class="media event">
-                                <a class="pull-left date">
-                                    <p class="month">May</p>
-                                    <p class="day">13</p>
-                                </a>
-                                <div class="media-body">
-                                    <a class="title" href="#">View Report</a>
-                                    <p>V2G inputs and user data</p>
-                                </div>
-                            </article>
+                            </li>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Profile Created</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>System will be updated shortly</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
