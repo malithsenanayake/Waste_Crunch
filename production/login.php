@@ -54,7 +54,7 @@
                 <input type="password" class="form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="executive-chef-dashboard.php">Log in</a>
+                <a class="btn btn-default submit" href="ex-chef-dashboard.php">Log in</a>
                 <a class="reset_pass" href="#">Lost your password?</a>
               </div>
 
@@ -91,7 +91,7 @@
                 <input type="password" class="form-control" placeholder="Password" required="" />
               </div>
               <div>
-                <a class="btn btn-default submit" href="executive-chef-dashboard.php">Submit</a>
+                <a class="btn btn-default submit" href="ex-chef-dashboard.php">Submit</a>
               </div>
 
               <div class="clearfix"></div>

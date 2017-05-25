@@ -251,7 +251,7 @@
             <!-- top tiles -->
             <div class="row tile_count">
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12" style=" color: white">
-                    <a href="breakfast-menu.php"> <div class="tile-stats" style=" background-color: #3498db;  color: white">
+                    <a href="ex-chef-breakfast-menu.php"> <div class="tile-stats" style=" background-color: #3498db;  color: white">
                         <div class="icon"><i class="fa fa-check-square-o"></i>
                             <br><br><br>
                             <h3>12%</h3>
@@ -262,7 +262,7 @@
                     </div></a>
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <a href="lunch-menu.php"> <div class="tile-stats" style=" background-color: #6f6bbf; color: white">
+                    <a href="ex-chef-lunch-menu.php"> <div class="tile-stats" style=" background-color: #6f6bbf; color: white">
                         <div class="icon"><i class="fa fa-check-square-o"></i>
                             <br><br><br>
                             <h3>2%</h3>
@@ -273,7 +273,7 @@
                     </div></a>
                 </div>
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <a href="dinner-menu.php"><div class="tile-stats" style=" background-color: #00a85b;  color: white">
+                    <a href="ex-chef-dinner-menu.php"><div class="tile-stats" style=" background-color: #00a85b;  color: white">
                         <div class="icon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                             <br><br><br>
                             <h3>-</h3>
