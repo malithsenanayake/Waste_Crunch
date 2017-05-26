@@ -37,11 +37,11 @@
                 <br>
                 <h3>Edit/View Menu Items</h3>
                 <br>
-                <li><a href="ex-chef-breakfast-menu.php"><i class="fa fa-edit"></i> Breakfast Menu</a>
+                <li><a href="ex-chef-breakfast-menu.php"><i class="fa fa-edit"></i>Breakfast Menu</a>
                 </li>
                 <li><a href="ex-chef-lunch-menu.php"><i class="fa fa-edit"></i>Lunch Menu</a>
                 </li>
-                <li><a href="ex-chef-dinner-menu.php"><i class="fa fa-edit"></i> Dinner Menu</a>
+                <li><a href="ex-chef-dinner-menu.php"><i class="fa fa-edit"></i>Dinner Menu</a>
                 </li>
                 <br>
                 <h3>Edit/View Staff Functions</h3>
