@@ -149,7 +149,7 @@
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="index1.php" class="site_title">&nbsp;&nbsp;<img src="images/small%202.png">&nbsp;&nbsp;<span><b>Waste</b></span><span>Crunch</span></a>
+                    <a href="admin-dashboard.php" class="site_title">&nbsp;&nbsp;<img src="images/small%202.png">&nbsp;&nbsp;<span><b>Waste</b></span><span>Crunch</span></a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -177,7 +177,7 @@
                             <li><a><i class="fa fa-home"></i>Dashboards <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="admin-dashboard.php">Main Dashboard</a></li>
-                                    <li><a href="index2.html">Buffet and A-La-Carte menu</a></li>
+                                    <li><a href="admin_menu_updates.php">Buffet and A-La-Carte menu</a></li>
                                 </ul>
                             </li>
                             <br>
@@ -406,6 +406,12 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Middle Name / Initial</label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Company ID</label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
                                         </div>
