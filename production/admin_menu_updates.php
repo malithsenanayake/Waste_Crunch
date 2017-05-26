@@ -8,6 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Waste Crunch | Admin Portal </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Dropzone.js -->
+    <link href="../vendors/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -193,7 +202,7 @@
                             <br>
                             <li><a><i class="fa fa-envelope"></i> Messages <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.php">inbox</a></li>
+                                    <li><a href="admin_inbox.php">inbox</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -1378,6 +1387,16 @@
 <script src="../vendors/pdfmake/build/pdfmake.min.js"></script>
 <script src="../vendors/pdfmake/build/vfs_fonts.js"></script>
 
+<!-- jQuery -->
+<script src="../vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="../vendors/fastclick/lib/fastclick.js"></script>
+<!-- NProgress -->
+<script src="../vendors/nprogress/nprogress.js"></script>
+<!-- Dropzone.js -->
+<script src="../vendors/dropzone/dist/min/dropzone.min.js"></script>
 <!-- Dropzone.js -->
 <script src="../vendors/dropzone/dist/min/dropzone.min.js"></script>
 

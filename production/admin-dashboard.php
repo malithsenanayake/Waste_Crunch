@@ -185,7 +185,7 @@
                             <br>
                             <li><a><i class="fa fa-envelope"></i> Messages <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.php">inbox</a></li>
+                                    <li><a href="admin_inbox.php">inbox</a></li>
                                 </ul>
                             </li>
                         </ul>
