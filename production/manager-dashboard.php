@@ -227,7 +227,8 @@
                                         <span>Settings</span>
                                     </a>
                                 </li>
-                                <li><a href="manager-dashboard.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                <li><a href="manager-dashboard.php"><i class="fa fa-sign-out pull-right"></i> Log
+                                        Out</a></li>
                             </ul>
                         </li>
 
@@ -345,7 +346,10 @@
                                             var t = setTimeout(startTime, 500);
                                         }
                                         function checkTime(i) {
-                                            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                                            if (i < 10) {
+                                                i = "0" + i
+                                            }
+                                            ;  // add zero in front of numbers < 10
                                             return i;
                                         }
                                     </script>
@@ -356,7 +360,8 @@
                                 <div id="txt"></div>
 
                                 </body>
-                                </html></div>
+                                </html>
+                            </div>
                             <h3>Local Time</h3>
                             <p>Colombo West</p>
                         </div>
@@ -366,7 +371,8 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="x_panel">
-
+                            <iframe width="1380" height="371" seamless frameborder="0" scrolling="no"
+                                    src="https://docs.google.com/spreadsheets/d/187QkLmSTSFqTxgW4atqggBkCcOAMPMLzyhqgqTXkMDg/pubchart?oid=511759599&amp;format=interactive"></iframe>
                         </div>
                     </div>
                 </div>
