@@ -108,7 +108,7 @@
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 emphasis">
                                                     <a href="kitchen-breakfast-menu.php"><button type="button" class="btn btn-success btn-xs">View menu</button></a>
-                                                    <button type="button" class="btn btn-primary btn-xs">
+                                                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">
                                                         <i class="fa fa-user"> </i> Record Buffet Details
                                                     </button>
                                                 </div>
@@ -136,8 +136,8 @@
 
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 emphasis">
-                                                    <button type="button" class="btn btn-success btn-xs">View menu</button>
-                                                    <button type="button" class="btn btn-primary btn-xs">
+                                                    <a href="kitchen-lunch-menu.php"><button type="button" class="btn btn-success btn-xs">View menu</button></a>
+                                                    <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">
                                                         <i class="fa fa-user"> </i> Record Buffet Details
                                                     </button>
                                                 </div>
@@ -167,7 +167,7 @@
 
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 emphasis">
-                                                    <button type="button" class="btn btn-success btn-xs">View menu</button>
+                                                    <a href="kitchen-dinner-menu.php"><button type="button" class="btn btn-success btn-xs">View menu</button></a>
                                                     <button type="button" class="btn btn-primary btn-xs">
                                                         <i class="fa fa-user"> </i> Record Buffet Details
                                                     </button>
@@ -197,7 +197,7 @@
 
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 emphasis">
-                                                    <button type="button" class="btn btn-success btn-xs">View menu</button>
+                                                    <a href="kitchen-wastage.php"><button type="button" class="btn btn-success btn-xs">View menu</button></a>
                                                     <button type="button" class="btn btn-primary btn-xs">
                                                         <i class="fa fa-user"> </i> Record Buffet Details
                                                     </button>
@@ -212,6 +212,29 @@
                         </div>
                     </div>
                 </div>
+
+
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Success</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Details have been recorded!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
 
             </div>
