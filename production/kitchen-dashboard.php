@@ -50,9 +50,9 @@
             <div class="">
                 <div class="page-title">
                     <div style="margin-top: 58px;">
-                        <div class="row" style="background-color: #de4e3c">
+                        <div class="row"style="background-color: #3498db">
                             <div class="title_left">
-                                <h1 style="color: white">&nbsp; &nbsp;Wastage</h1>
+                                <h1 style="color: white">&nbsp; &nbsp;Kitchen staff Dashboard</h1>
                             </div>
                             <div class="title_right">
                                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
@@ -168,9 +168,9 @@
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 emphasis">
                                                     <a href="kitchen-dinner-menu.php"><button type="button" class="btn btn-success btn-xs">View menu</button></a>
-                                                    <button type="button" class="btn btn-primary btn-xs">
-                                                        <i class="fa fa-user"> </i> Record Buffet Details
-                                                    </button>
+                                                    <a href="kitchen-buffet-details.php"><button type="button" class="btn btn-primary btn-xs">
+                                                            <i class="fa fa-user"> </i> Record Buffet Details
+                                                        </button></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -197,7 +197,7 @@
 
                                                 </div>
                                                 <div class="col-xs-12 col-sm-6 emphasis">
-                                                    <a href="kitchen-wastage.php"><button type="button" class="btn btn-success btn-xs">View menu</button></a>
+                                                    <button type="button" class="btn btn-success btn-xs">View</button>
                                                     <button type="button" class="btn btn-primary btn-xs">
                                                         <i class="fa fa-user"> </i> Record Buffet Details
                                                     </button>

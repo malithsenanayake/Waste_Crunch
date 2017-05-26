@@ -35,6 +35,22 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
+            <div class="page-title">
+                <div style="margin-top: 58px;">
+                    <div class="row" style="background-color: #3498db">
+                        <div class="title_left">
+                            <h1 style="color: white"> &nbsp; Record Kitchen Buffet Details</h1>
+                        </div>
+                        <div class="title_right">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <br> <br>
+            <br> <br>
+            <br>
             <h3 class="box-title"> Entree items </h3>
                 <table id="example2" class="table table-bordered table-hover">
                     <thead>
