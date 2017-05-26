@@ -46,356 +46,241 @@
         <!-- /top navigation -->
 
         <!-- page content -->
-        <div class="right_col">
-            <!-- top tiles -->
-            <div class="row tile_count">
-                <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12" style=" color: white">
-                    <a href="ex-chef-breakfast-menu.php"> <div class="tile-stats" style=" background-color: #3498db;  color: white">
-                        <div class="icon"><i class="fa fa-check-square-o"></i>
-                            <br><br><br>
-                            <h3>12%</h3>
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="page-title">
+                    <div style="margin-top: 58px;">
+                        <div class="row" style="background-color: #de4e3c">
+                            <div class="title_left">
+                                <h1 style="color: white">&nbsp; &nbsp;Wastage</h1>
+                            </div>
+                            <div class="title_right">
+                                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                        <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">Go!</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="count">Breakfast</div>
-                        <h3>Submitted</h3>
-                        <p>Total Wastage</p>
-                    </div></a>
-                </div>
-                <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <a href="ex-chef-lunch-menu.php"> <div class="tile-stats" style=" background-color: #6f6bbf; color: white">
-                        <div class="icon"><i class="fa fa-check-square-o"></i>
-                            <br><br><br>
-                            <h3>2%</h3>
-                        </div>
-                        <div class="count">Lunch</div>
-                        <h3>Submitted</h3>
-                        <p>Total Wastage</p>
-                    </div></a>
-                </div>
-                <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <a href="ex-chef-dinner-menu.php"><div class="tile-stats" style=" background-color: #00a85b;  color: white">
-                        <div class="icon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                            <br><br><br>
-                            <h3>-</h3>
-                        </div>
-                        <div class="count">Dinner</div>
-                        <h3>Pending</h3>
-                        <p>Total Wastage</p>
-                    </div></a>
-                </div>
-                <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <div class="tile-stats" style=" background-color: #de4e3c;  color: white">
-                        <div class="icon"></div>
-                        <div class="count">Wastage</div>
-                        <h3 id="txt"></h3>
-                        <p>Total Wastage</p>
                     </div>
+
                 </div>
-            </div>
-            <!-- /top tiles -->
+                <br>
+                <br>
+                <div class="clearfix"></div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="x_panel">
+                            <div class="x_content">
+                                <div class="row">
+                                    <center>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
 
-            <div class="row">
-                <div class="col-md-12 col-sm-12g col-xs-12">
-                    <div class="dashboard_graph">
+                                    </div>
 
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="x_panel">
-                                <div class="x_title">
-                                    <h2>Daily V2G Performance - Overview </h2>
                                     <div class="clearfix"></div>
+
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
+                                        <div class="well profile_view"
+                                             style=" background-color: #3498db;  color: white">
+                                            <div class="col-sm-12">
+                                                <h1>Breakfast</h1>
+                                                <div class="left col-xs-7">
+                                                    <h2>Total wastage </h2>
+                                                    <h2>Most Wasted Items </h2>
+                                                    <ul class="list-unstyled">
+                                                        <li><i class="fa fa-check-circle-o"></i> Brown bread</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="right col-xs-5 text-center">
+                                                    <h1>12%</h1>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 bottom text-center">
+                                                <div class="col-xs-12 col-sm-6 emphasis">
+
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 emphasis">
+                                                    <a href="kitchen-breakfast-menu.php"><button type="button" class="btn btn-success btn-xs">View menu</button></a>
+                                                    <button type="button" class="btn btn-primary btn-xs">
+                                                        <i class="fa fa-user"> </i> Record Buffet Details
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
+                                        <div class="well profile_view" style=" background-color: #6f6bbf; color: white">
+                                            <div class="col-sm-12">
+                                                <h1>Lunch</h1>
+                                                <div class="left col-xs-7">
+                                                    <h2>Total wastage </h2>
+                                                    <h2>Most Wasted Items </h2>
+                                                    <ul class="list-unstyled">
+                                                        <li><i class="fa fa-check-circle-o"></i> Potatoes</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="right col-xs-5 text-center">
+                                                    <h1>2%</h1>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 bottom text-center">
+                                                <div class="col-xs-12 col-sm-6 emphasis">
+
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 emphasis">
+                                                    <button type="button" class="btn btn-success btn-xs">View menu</button>
+                                                    <button type="button" class="btn btn-primary btn-xs">
+                                                        <i class="fa fa-user"> </i> Record Buffet Details
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
+                                        <div class="well profile_view"
+                                             style=" background-color: #00a85b;  color: white">
+                                            <div class="col-sm-12">
+                                                <h1>Dinner</h1>
+                                                <div class="left col-xs-7">
+                                                    <h2>Total wastage </h2>
+                                                    <h2>Most Wasted Items </h2>
+                                                    <ul class="list-unstyled">
+                                                        <li><i class="fa fa-check-circle-o"></i> Pending</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="right col-xs-5 text-center">
+                                                    <h1>&nbsp;&nbsp;--%</h1>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 bottom text-center">
+                                                <div class="col-xs-12 col-sm-6 emphasis">
+
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 emphasis">
+                                                    <button type="button" class="btn btn-success btn-xs">View menu</button>
+                                                    <button type="button" class="btn btn-primary btn-xs">
+                                                        <i class="fa fa-user"> </i> Record Buffet Details
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-4 col-xs-12 profile_details">
+                                        <div class="well profile_view"
+                                             style="background-color: #de4e3c; color: white"">
+                                            <div class="col-sm-12">
+                                                <h1>Wastage</h1>
+                                                <div class="left col-xs-7">
+                                                    <h2>Total wastage </h2>
+                                                    <h2>&nbsp;</h2>
+                                                    <ul class="list-unstyled">
+                                                        <li>&nbsp;</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="right col-xs-5 text-center">
+                                                    <h1>&nbsp;&nbsp;&nbsp;14%</h1>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 bottom text-center">
+                                                <div class="col-xs-12 col-sm-6 emphasis">
+
+                                                </div>
+                                                <div class="col-xs-12 col-sm-6 emphasis">
+                                                    <button type="button" class="btn btn-success btn-xs">View menu</button>
+                                                    <button type="button" class="btn btn-primary btn-xs">
+                                                        <i class="fa fa-user"> </i> Record Buffet Details
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <iframe width="100%" height="354" seamless frameborder="0" scrolling="no"
-                                        src="https://docs.google.com/spreadsheets/d/187QkLmSTSFqTxgW4atqggBkCcOAMPMLzyhqgqTXkMDg/pubchart?oid=32122629&amp;format=interactive"></iframe>
+                                </center>
                             </div>
-
                         </div>
-
-                        <div class="clearfix"></div>
                     </div>
                 </div>
+
 
             </div>
-            <br/>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="x_panel tile fixed_height_320 overflow_hidden">
-                        <div class="x_title">
-                            <h2>Gender</h2>
-                            <div class="clearfix"></div>
-                        </div>
-
-                        <div class="x_content">
-
-                            <div row="">
-                            <span>
-                             <div class="col-md-12">
-                             <div class="col-md-6">
-                                 <center>
-                            <div style="width: 100%;     margin-top: -45px;">
-                            <table style="width:100%">
-
-                                    <div id="genderChart"></div>
-
-                                <script src="gender.js"></script>
-                                <td>
-
-                                </td>
-                                </tr>
-                            </table>
-                            </div>
-                            </center>
-                             </div>
-                                 <div class="col-md-6">
-                                      <table class="tile_info">
-                                <tr>
-                                    <td>
-                                        <p><i class="fa fa-square blue"></i>Male </p>
-                                    </td>
-                                    <td>62%</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p><i class="fa fa-square green"></i>Female </p>
-                                    </td>
-                                    <td>48%</td>
-                                </tr>
-                            </table>
-                             </div>
-                             </div>
-                            </span>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="x_panel tile fixed_height_320">
-                        <div class="x_title">
-                            <h2>Nationality Details</h2>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="x_content">
-                            <div class="widget_summary">
-                                <div class="w_left w_25">
-                                    <span>Locals</span>
-                                </div>
-                                <div class="w_center w_55">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                            <span class="sr-only">72%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="w_right w_20">
-                                    <span>72%</span>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-
-                            <div class="widget_summary">
-                                <div class="w_left w_25">
-                                    <span>Indians</span>
-                                </div>
-                                <div class="w_center w_55">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 18%;">
-                                            <span class="sr-only">18%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="w_right w_20">
-                                    <span>18%</span>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="widget_summary">
-                                <div class="w_left w_25">
-                                    <span>Chinese</span>
-                                </div>
-                                <div class="w_center w_55">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 12%;">
-                                            <span class="sr-only">12%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="w_right w_20">
-                                    <span>12%</span>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="widget_summary">
-                                <div class="w_left w_25">
-                                    <span>European </span>
-                                </div>
-                                <div class="w_center w_55">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 7%;">
-                                            <span class="sr-only">7%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="w_right w_20">
-                                    <span>7%</span>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="widget_summary">
-                                <div class="w_left w_25">
-                                    <span>African</span>
-                                </div>
-                                <div class="w_center w_55">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 3%;">
-                                            <span class="sr-only">3%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="w_right w_20">
-                                    <span>3%</span>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="x_panel tile fixed_height_320">
-                        <div class="x_title">
-                            <h2>Peak Hour Performance (Killo Watts)</h2>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="x_content">
-                            <div class="dashboard-widget-content">
-
-                                <div class="col-md-12 col-sm-12 col-xs-6">
-                                    <div>
-                                        <p>7:00PM-7:59PM 0.00%</p>
-                                        <div class="">
-                                            <div class="progress progress_sm" style="width: 76%;">
-                                                <div class="progress-bar bg-green" role="progressbar"
-                                                     data-transitiongoal="1"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <p>8:00PM-8:59PM 0.00%</p>
-                                        <div class="">
-                                            <div class="progress progress_sm" style="width: 76%;">
-                                                <div class="progress-bar bg-green" role="progressbar"
-                                                     data-transitiongoal="1"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-6">
-                                    <div>
-                                        <p>9:00PM-9:59PM 0.00%</p>
-                                        <div class="">
-                                            <div class="progress progress_sm" style="width: 76%;">
-                                                <div class="progress-bar bg-green" role="progressbar"
-                                                     data-transitiongoal="1"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <p>10:00PM-10:59PM 0.00%</p>
-                                        <div class="">
-                                            <div class="progress progress_sm" style="width: 76%;">
-                                                <div class="progress-bar bg-green" role="progressbar"
-                                                     data-transitiongoal="1"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
         </div>
-    </div>
-</div>
-</div>
-<!-- /page content -->
+        <!-- /page content -->
 
-<!-- footer content -->
-<footer>
-    <div class="pull-right">
-        All rights reserved. Copyrights: Green Pay 2017 v1.0
-    </div>
-    <div class="clearfix"></div>
-</footer>
-<!-- /footer content -->
+        <!-- footer content -->
+        <footer>
+            <div class="pull-right">
+                All rights reserved. Copyrights: Green Pay 2017 v1.0
+            </div>
+            <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
 
-<!-- jQuery -->
-<script src="../vendors/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- FastClick -->
-<script src="../vendors/fastclick/lib/fastclick.js"></script>
-<!-- NProgress -->
-<script src="../vendors/nprogress/nprogress.js"></script>
-<!-- Chart.js -->
-<script src="../vendors/Chart.js/dist/Chart.min.js"></script>
-<!-- gauge.js -->
-<script src="../vendors/gauge.js/dist/gauge.min.js"></script>
-<!-- bootstrap-progressbar -->
-<script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
-<!-- iCheck -->
-<script src="../vendors/iCheck/icheck.min.js"></script>
-<!-- Skycons -->
-<script src="../vendors/skycons/skycons.js"></script>
-<!-- Flot -->
-<script src="../vendors/Flot/jquery.flot.js"></script>
-<script src="../vendors/Flot/jquery.flot.pie.js"></script>
-<script src="../vendors/Flot/jquery.flot.time.js"></script>
-<script src="../vendors/Flot/jquery.flot.stack.js"></script>
-<script src="../vendors/Flot/jquery.flot.resize.js"></script>
-<!-- Flot plugins -->
-<script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
-<script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
-<script src="../vendors/flot.curvedlines/curvedLines.js"></script>
-<!-- DateJS -->
-<script src="../vendors/DateJS/build/date.js"></script>
-<!-- JQVMap -->
-<script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
-<script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-<script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
-<!-- bootstrap-daterangepicker -->
-<script src="../vendors/moment/min/moment.min.js"></script>
-<script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <!-- jQuery -->
+        <script src="../vendors/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- FastClick -->
+        <script src="../vendors/fastclick/lib/fastclick.js"></script>
+        <!-- NProgress -->
+        <script src="../vendors/nprogress/nprogress.js"></script>
+        <!-- Chart.js -->
+        <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+        <!-- gauge.js -->
+        <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+        <!-- bootstrap-progressbar -->
+        <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+        <!-- iCheck -->
+        <script src="../vendors/iCheck/icheck.min.js"></script>
+        <!-- Skycons -->
+        <script src="../vendors/skycons/skycons.js"></script>
+        <!-- Flot -->
+        <script src="../vendors/Flot/jquery.flot.js"></script>
+        <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+        <script src="../vendors/Flot/jquery.flot.time.js"></script>
+        <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+        <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+        <!-- Flot plugins -->
+        <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+        <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+        <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+        <!-- DateJS -->
+        <script src="../vendors/DateJS/build/date.js"></script>
+        <!-- JQVMap -->
+        <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+        <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+        <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+        <!-- bootstrap-daterangepicker -->
+        <script src="../vendors/moment/min/moment.min.js"></script>
+        <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 
-<!-- Custom Theme Scripts -->
-<script src="../build/js/custom.min.js"></script>
-<!-- jQuery -->
-<script src="../vendors/jquery/dist/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- FastClick -->
-<script src="../vendors/fastclick/lib/fastclick.js"></script>
-<!-- NProgress -->
-<script src="../vendors/nprogress/nprogress.js"></script>
-<!-- ECharts -->
-<script src="../vendors/echarts/dist/echarts.min.js"></script>
-<script src="../vendors/echarts/map/js/world.js"></script>
+        <!-- Custom Theme Scripts -->
+        <script src="../build/js/custom.min.js"></script>
+        <!-- jQuery -->
+        <script src="../vendors/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- FastClick -->
+        <script src="../vendors/fastclick/lib/fastclick.js"></script>
+        <!-- NProgress -->
+        <script src="../vendors/nprogress/nprogress.js"></script>
+        <!-- ECharts -->
+        <script src="../vendors/echarts/dist/echarts.min.js"></script>
+        <script src="../vendors/echarts/map/js/world.js"></script>
 
-<!-- Custom Theme Scripts -->
-<script src="../build/js/custom.min.js"></script>
+        <!-- Custom Theme Scripts -->
+        <script src="../build/js/custom.min.js"></script>
 
 </body>
 </html>
