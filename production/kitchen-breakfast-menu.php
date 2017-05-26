@@ -238,7 +238,7 @@
                                     <tr>
                                         <th scope="row">3</th>
                                         <td> Bread pudding </td>
-                                        <td> bra </td>
+                                        <td> bread </td>
                                         <td> 5 Kg </td>
                                     </tr>
                                     </tbody>
