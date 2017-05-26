@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Waste Crunch | Admin Portal </title>
+    <title>Waste Crunch | Manager Portal </title>
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -149,7 +149,7 @@
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="admin-dashboard.php" class="site_title">&nbsp;&nbsp;<img src="images/small%202.png">&nbsp;&nbsp;<span><b>Waste</b></span><span>Crunch</span></a>
+                    <a href="manager-dashboard.php.php" class="site_title">&nbsp;&nbsp;<img src="images/small%202.png">&nbsp;&nbsp;<span><b>Waste</b></span><span>Crunch</span></a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -160,8 +160,8 @@
                         <img src="images/user.png" alt="..." class="img-circle profile_img">
                     </div>
                     <div class="profile_info">
-                        <span>System Admin,</span>
-                        <h2>Admin 01</h2>
+                        <span>Manager Portal,</span>
+                        <h2>Manager 01</h2>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->
@@ -172,12 +172,11 @@
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                     <div class="menu_section">
                         <br>
-                        <h3>Admin Functions</h3>
+                        <h3>Manager Functions</h3>
                         <ul class="nav side-menu">
                             <li><a><i class="fa fa-home"></i>Dashboards <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="admin-dashboard.php">Main Dashboard</a></li>
-                                    <li><a href="admin_menu_updates.php">Buffet and A-La-Carte menu</a></li>
                                 </ul>
                             </li>
                             <br>
@@ -195,7 +194,7 @@
                         <ul class="nav side-menu">
                             <li><a><i class="fa fa-desktop"></i>reports <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="#">Overall reports</a></li>
+                                    <li><a href="inbox.php">Overall reports</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -368,7 +367,7 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Create profile <small></small></h2>
+                                <h2>Form Design <small>different form elements</small></h2>
                                 <ul class="nav navbar-right panel_toolbox">
                                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                     </li>

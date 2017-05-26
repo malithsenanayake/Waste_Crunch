@@ -212,7 +212,7 @@
                         <ul class="nav side-menu">
                             <li><a><i class="fa fa-desktop"></i>reports <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="inbox.php">Overall reports</a></li>
+                                    <li><a href="#">Overall reports</a></li>
                                 </ul>
                             </li>
                         </ul>
