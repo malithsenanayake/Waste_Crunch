@@ -123,7 +123,8 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="x_panel">
                                 <div class="x_title">
-                                    <h2>Daily V2G Performance - Overview </h2>
+                                    <h2>Reservation management system : guest turn-over
+                                    </h2>
                                     <div class="clearfix"></div>
                                 </div>
                                 <iframe width="100%" height="354" seamless frameborder="0" scrolling="no"
