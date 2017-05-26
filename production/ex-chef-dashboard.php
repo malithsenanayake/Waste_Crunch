@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <META HTTP-EQUIV="refresh" CONTENT="15">
 
     <title>Waste Crunch</title>
     <!-- Bootstrap -->
@@ -108,9 +109,36 @@
                 <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="tile-stats" style=" background-color: #de4e3c;  color: white">
                         <div class="icon"></div>
-                        <div class="count">Wastage</div>
-                        <h3 id="txt"></h3>
-                        <p>Total Wastage</p>
+                        <div class="count"><!DOCTYPE html>
+                            <html>
+                            <head>
+                                <script>
+                                    function startTime() {
+                                        var today = new Date();
+                                        var h = today.getHours();
+                                        var m = today.getMinutes();
+                                        var s = today.getSeconds();
+                                        m = checkTime(m);
+                                        s = checkTime(s);
+                                        document.getElementById('txt').innerHTML =
+                                            h + ":" + m + ":" + s;
+                                        var t = setTimeout(startTime, 500);
+                                    }
+                                    function checkTime(i) {
+                                        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+                                        return i;
+                                    }
+                                </script>
+                            </head>
+
+                            <body onload="startTime()">
+
+                            <div id="txt"></div>
+
+                            </body>
+                            </html></div>
+                        <h3>Local Time</h3>
+                        <p>Colombo west</p>
                     </div>
                 </div>
             </div>
